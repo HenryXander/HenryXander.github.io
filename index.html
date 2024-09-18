@@ -12,7 +12,10 @@
             <div class="text">
                 <h2>Path seaching agent</h2>
                 <p>
-                    This is a place to write some text or a paragraph about your content. You can explain the video, describe a concept, or share any relevant information here. The text is aligned next to the video for a better user experience. You can add as much text as needed.
+                    Implementation of various informed and uninformed algorithms, including BFS, DFS, IDS, A*, IDA*, RBFS, etc.
+                    The used heuristic for the informed algorithms is the Manhattan-distance heuristic which helps to guide the search towards the goal more efficiently by prioritizing paths that are closer to the destination.
+                    For visualization the Pygame library was used.
+                    For future improvements a bidirectional search can be implemented.
                 </p>
             </div>
 
@@ -36,7 +39,9 @@
             <div class="text">
                 <h2>8-Queen problem solver</h2>
                 <p>
-                    This is a place to write some text or a paragraph about your content. You can explain the video, describe a concept, or share any relevant information here. The text is aligned next to the video for a better user experience. You can add as much text as needed.
+                    Implementation of local search algorithms including hill climbing search, simulated annealing and min-conflict search.
+                    The amount of pairs under attack is used as heuristic for the cost of the states when deciding between two states.
+                    Using Pygame a visualization of the board states is implemented. Future changes to the project would to expand the board to the N-Queen problem.
                 </p>
             </div>
 
@@ -46,7 +51,8 @@
             <div class="text">
                 <h2>Sudoku solver</h2>
                 <p>
-                    This is a place to write some text or a paragraph about your content. You can explain the video, describe a concept, or share any relevant information here. The text is aligned next to the video for a better user experience. You can add as much text as needed.
+                    Since a sudoku is a constraint satisfaction problem (CSP), a back-track search was implemented capable of using various inferences like: AC-3, PC-2, Maintaining Arc Consistency (MAC) and forward checking.
+                    Pygame was used to show the sudokus. Future improvements would be implementation of intelligent back-tracking to solve harder sudokus.
                 </p>
             </div>
 
@@ -58,5 +64,45 @@
                 </video>
             </div>
     </div>
+    <div class="container">
+            <!-- Video element -->
+            <div class="video">
+                <video controls width="100%">
+                    <source src="your-video-file.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- Paragraph text -->
+            <div class="text">
+                <h2>LeNet</h2>
+                <p>
+                    Implementation of the well known LeNet neural network using Pytorch.
+                    LeNet is used to classify handwritten digits and is trained on the MNIST dataset.
+                    It consists of convolutional layers, pooling layers and fully connected layers to reach a tensor of size 10 as output.
+                    On this output a softmax operation and an argmax operation are performed to get the final predicated digit label of the input image.
+                    For future improvements data augmentation could be a valuable option.
+                </p>
+            </div>
+
+    </div>
+    <div class="container">
+                <!-- Paragraph text -->
+                <div class="text">
+                    <h2>Sine approximator</h2>
+                    <p>
+                        Sine approximator project to learn the basics of Pytorch.
+                        Defining the neural network architecture using nn.module and using autograd for gradient-based optimization.
+                        The netwerk approximates a sine function by minimizing the mean square error (MSE) loss function.
+                    </p>
+                </div>
+
+                <!-- Video element -->
+                <div class="video">
+                    <video controls width="100%">
+                        <source src="your-video-file.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+        </div>
 </body>
 </html>
