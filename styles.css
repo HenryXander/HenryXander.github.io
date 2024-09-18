@@ -1,17 +1,21 @@
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 /* Styling for the paragraph */
 .text {
     width: 50%;
     padding-right: 20px;
+    padding-left: 20px;
 }
 
 /* Styling for the video */
 .video {
+    width: 50%;
+}
+
+.image {
     width: 50%;
 }
 
